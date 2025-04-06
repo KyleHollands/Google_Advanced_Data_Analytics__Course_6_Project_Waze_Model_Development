@@ -1,7 +1,7 @@
 # Tree-Based Classification Model for Predicting User Churn in the Waze App
 
 ## Project Overview
-The goal of this data analytics project was to identify the key factors driving user churn for the Waze app and ultimately build a predictive model. Two final models were developed: a Random Forest model and an XGBoost model. Both models produced similar results but did not perform well enough for practical application. The XGBoost model achieved an accuracy of 80%, but its recall was only 19%, which is critical for this context. Several features showed predictive value, including 'km_per_hour', 'n_days_after_onboarding', and 'percent_sessions_in_last_month'; however, the overall performance suggests that improvements are necessary. Many of the top features identified in the importance rankings were engineered.
+The goal of this data analytics project was to identify the key factors driving user churn for the Waze app and ultimately build a predictive model. Two final models were developed: a Random Forest model and an XGBoost model. Ultimately, both models did not perform well enough for practical application. The final XGBoost model achieved an accuracy of 70% and a recall of 50%, which is critical for this context. Several features showed predictive value, including 'km_per_hour', 'n_days_after_onboarding', and 'percent_sessions_in_last_month'; however, the overall performance suggests that improvements are necessary. Many of the top features identified in the importance rankings were engineered.
 
 ## Business Understanding
 The key stakeholders for this project are the Waze team, as the insights derived from this analysis will help them re-evaluate various aspects of the app to reduce user churn.
